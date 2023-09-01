@@ -6,4 +6,4 @@ Source code of mods for Oxygen Not Included
 
 |  **Mod Name**  |  **Description**  |  **Vanilla**  |  **Spaced Out! DLC**  |
 | - | - | :-: | :-: |
-| [Automated Canisters Reloaded](https://steamcommunity.com/sharedfiles/filedetails/?id=) | Makes fluids shippable as items | ✅ | ✅ |
+| [Automated Canisters Reloaded](https://steamcommunity.com/sharedfiles/filedetails/?id=3029304394) | Makes fluids shippable as items | ✅ | ✅ |

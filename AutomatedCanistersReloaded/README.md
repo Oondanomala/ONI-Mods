@@ -16,4 +16,4 @@ Helpful for automating buildings such as the super computer or the molecular for
 
 Credits to asquared31415 for the original mod.
 
-[Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=)
+[Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3029304394)
