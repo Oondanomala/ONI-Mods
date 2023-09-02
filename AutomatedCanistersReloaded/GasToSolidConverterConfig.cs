@@ -24,7 +24,6 @@ namespace AutomatedCanistersReloaded
 
 		public override void ConfigureBuildingTemplate(GameObject go, Tag prefabTag)
 		{
-			go.AddOrGet<DropAllWorkable>();
 			go.AddOrGet<SolidConduitDispenser>();
 			ConduitConsumer conduitConsumer = go.AddOrGet<ConduitConsumer>();
 			conduitConsumer.conduitType = ConduitType.Gas;
