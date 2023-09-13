@@ -1,0 +1,65 @@
+msgid ""
+msgstr ""
+"Application: Oxygen Not Included"
+"POT Version: 2.0"
+
+#. AutomatedCanistersReloaded.STRINGS.BUILDINGS.PREFABS.GASTOSOLIDCONVERTER.DESC
+msgctxt "AutomatedCanistersReloaded.STRINGS.BUILDINGS.PREFABS.GASTOSOLIDCONVERTER.DESC"
+msgid "Useful for those annoying to automate buildings like the <link=\"ADVANCEDRESEARCHCENTER\">Super Computer</link>"
+msgstr ""
+
+#. AutomatedCanistersReloaded.STRINGS.BUILDINGS.PREFABS.GASTOSOLIDCONVERTER.EFFECT
+msgctxt "AutomatedCanistersReloaded.STRINGS.BUILDINGS.PREFABS.GASTOSOLIDCONVERTER.EFFECT"
+msgid "Loads <link=\"ELEMENTSGAS\">Gases</link> from a <link=\"GASPIPING\">Gas Pipe</link> into a <link=\"SOLIDCONDUIT\">Conveyor Rail</link>"
+msgstr ""
+
+#. AutomatedCanistersReloaded.STRINGS.BUILDINGS.PREFABS.GASTOSOLIDCONVERTER.NAME
+msgctxt "AutomatedCanistersReloaded.STRINGS.BUILDINGS.PREFABS.GASTOSOLIDCONVERTER.NAME"
+msgid "<link=\"GASTOSOLIDCONVERTER\">Conveyor Gas Loader</link>"
+msgstr ""
+
+#. AutomatedCanistersReloaded.STRINGS.BUILDINGS.PREFABS.LIQUIDTOSOLIDCONVERTER.DESC
+msgctxt "AutomatedCanistersReloaded.STRINGS.BUILDINGS.PREFABS.LIQUIDTOSOLIDCONVERTER.DESC"
+msgid "Useful for those annoying to automate buildings like the <link=\"SUPERMATERIALREFINERY\">Molecular Forge</link>"
+msgstr ""
+
+#. AutomatedCanistersReloaded.STRINGS.BUILDINGS.PREFABS.LIQUIDTOSOLIDCONVERTER.EFFECT
+msgctxt "AutomatedCanistersReloaded.STRINGS.BUILDINGS.PREFABS.LIQUIDTOSOLIDCONVERTER.EFFECT"
+msgid "Loads <link=\"ELEMENTSLIQUID\">Liquids</link> from a <link=\"LIQUIDPIPING\">Liquid Pipe</link> into a <link=\"SOLIDCONDUIT\">Conveyor Rail</link>"
+msgstr ""
+
+#. AutomatedCanistersReloaded.STRINGS.BUILDINGS.PREFABS.LIQUIDTOSOLIDCONVERTER.NAME
+msgctxt "AutomatedCanistersReloaded.STRINGS.BUILDINGS.PREFABS.LIQUIDTOSOLIDCONVERTER.NAME"
+msgid "<link=\"LIQUIDTOSOLIDCONVERTER\">Conveyor Liquid Loader</link>"
+msgstr ""
+
+#. AutomatedCanistersReloaded.STRINGS.BUILDINGS.PREFABS.SOLIDTOGASCONVERTER.DESC
+msgctxt "AutomatedCanistersReloaded.STRINGS.BUILDINGS.PREFABS.SOLIDTOGASCONVERTER.DESC"
+msgid "Can take any solid as input, so be careful not to send anything unwanted in it."
+msgstr ""
+
+#. AutomatedCanistersReloaded.STRINGS.BUILDINGS.PREFABS.SOLIDTOGASCONVERTER.EFFECT
+msgctxt "AutomatedCanistersReloaded.STRINGS.BUILDINGS.PREFABS.SOLIDTOGASCONVERTER.EFFECT"
+msgid "Unloads <link=\"ELEMENTSGAS\">Gas</link> canisters from a <link=\"SOLIDCONDUIT\">Conveyor Rail</link> into a <link=\"GASPIPING\">Gas Pipe</link>"
+msgstr ""
+
+#. AutomatedCanistersReloaded.STRINGS.BUILDINGS.PREFABS.SOLIDTOGASCONVERTER.NAME
+msgctxt "AutomatedCanistersReloaded.STRINGS.BUILDINGS.PREFABS.SOLIDTOGASCONVERTER.NAME"
+msgid "<link=\"SOLIDTOGASCONVERTER\">Conveyor Gas Unloader</link>"
+msgstr ""
+
+#. AutomatedCanistersReloaded.STRINGS.BUILDINGS.PREFABS.SOLIDTOLIQUIDCONVERTER.DESC
+msgctxt "AutomatedCanistersReloaded.STRINGS.BUILDINGS.PREFABS.SOLIDTOLIQUIDCONVERTER.DESC"
+msgid "Can take any solid as input, so be careful not to send anything unwanted in it."
+msgstr ""
+
+#. AutomatedCanistersReloaded.STRINGS.BUILDINGS.PREFABS.SOLIDTOLIQUIDCONVERTER.EFFECT
+msgctxt "AutomatedCanistersReloaded.STRINGS.BUILDINGS.PREFABS.SOLIDTOLIQUIDCONVERTER.EFFECT"
+msgid "Unloads <link=\"ELEMENTSLIQUID\">Liquid</link> bottles from a <link=\"SOLIDCONDUIT\">Conveyor Rail</link> into a <link=\"LIQUIDPIPING\">Liquid Pipe</link>"
+msgstr ""
+
+#. AutomatedCanistersReloaded.STRINGS.BUILDINGS.PREFABS.SOLIDTOLIQUIDCONVERTER.NAME
+msgctxt "AutomatedCanistersReloaded.STRINGS.BUILDINGS.PREFABS.SOLIDTOLIQUIDCONVERTER.NAME"
+msgid "<link=\"SOLIDTOLIQUIDCONVERTER\">Conveyor Liquid Unloader</link>"
+msgstr ""
+

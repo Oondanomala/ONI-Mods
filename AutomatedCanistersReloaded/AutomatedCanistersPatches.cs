@@ -1,3 +1,4 @@
+using CommonUtils;
 using HarmonyLib;
 using KMod;
 using System.Linq;
@@ -40,7 +41,15 @@ namespace AutomatedCanistersReloaded
 				AddBuildingToTechnology("SolidSpace", "SolidToLiquidConverter");
 				AddBuildingToTechnology("SolidSpace", "GasToSolidConverter");
 				AddBuildingToTechnology("SolidSpace", "LiquidToSolidConverter");
-				LocString.CreateLocStringKeys(typeof(STRINGS.BUILDINGS));
+			}
+		}
+
+		[HarmonyPatch(typeof(Localization), "Initialize")]
+		public static class LocalizationSupport
+		{
+			public static void Postfix()
+			{
+				TranslationUtil.Translate(typeof(STRINGS));
 			}
 		}
 

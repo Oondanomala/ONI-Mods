@@ -54,6 +54,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\CommonUtils\TranslationUtil.cs">
+      <Link>TranslationUtil.cs</Link>
+    </Compile>
     <Compile Include="AutomatedCanistersPatches.cs" />
     <Compile Include="SolidToLiquidConverter.cs" />
     <Compile Include="SolidToGasConverter.cs" />
@@ -90,6 +93,7 @@
     <None Include="anim\assets\solidtoliquid\solidtoliquid_build.bytes">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="translations\automatedcanistersreloaded_template.pot" />
     <None Include="mod.yaml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
