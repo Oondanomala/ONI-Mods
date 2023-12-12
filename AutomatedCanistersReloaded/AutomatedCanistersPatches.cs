@@ -63,5 +63,18 @@ namespace AutomatedCanistersReloaded
 				storage.storageFilters.AddRange(STORAGEFILTERS.LIQUIDS);
 			}
 		}
+
+		[HarmonyPatch(typeof(WarpConduitReceiver.ConduitPort), "SetPortInfo")]
+		public static class MakeWarpConduitReceiverOutputFluids
+		{
+			public static void Postfix(GameObject parent, ConduitPortInfo info)
+			{
+				if (info.conduitType == ConduitType.Solid)
+				{
+					SolidConduitDispenser conduitDispenser = parent.AddOrGet<SolidConduitDispenser>();
+					conduitDispenser.solidOnly = false;
+				}
+			}
+		}
 	}
 }
