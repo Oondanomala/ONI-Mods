@@ -29,7 +29,7 @@ namespace AutomatedCanistersReloaded
 			conduitConsumer.conduitType = ConduitType.Liquid;
 			conduitConsumer.forceAlwaysSatisfied = true;
 			Storage storage = BuildingTemplates.CreateDefaultStorage(go);
-			storage.capacityKg = 20f;
+			storage.capacityKg = 50f;
 		}
 
 		public override void DoPostConfigureUnderConstruction(GameObject go)
