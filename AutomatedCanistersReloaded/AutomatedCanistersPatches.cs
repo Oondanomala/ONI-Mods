@@ -1,6 +1,8 @@
 using CommonUtils;
 using HarmonyLib;
 using KMod;
+using PeterHan.PLib.Core;
+using PeterHan.PLib.Options;
 using System.Linq;
 using TUNING;
 using UnityEngine;
@@ -11,6 +13,8 @@ namespace AutomatedCanistersReloaded
 	{
 		public override void OnLoad(Harmony harmony)
 		{
+			PUtil.InitLibrary(false);
+			new POptions().RegisterOptions(this, typeof(Options));
 			base.OnLoad(harmony);
 			STORAGEFILTERS.SOLID_TRANSFER_ARM_CONVEYABLE = STORAGEFILTERS.SOLID_TRANSFER_ARM_CONVEYABLE.Concat(STORAGEFILTERS.GASES).Concat(STORAGEFILTERS.LIQUIDS).ToArray();
 		}

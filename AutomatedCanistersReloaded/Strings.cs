@@ -34,5 +34,27 @@ namespace AutomatedCanistersReloaded
 				}
 			}
 		}
+		public static class CONFIG
+		{
+			public static class AUTOMATEDCANISTERSRELOADED
+			{
+				public static class ALWAYSACTIVE
+				{
+					public static LocString TITLE = "Always active";
+					public static LocString TOOLTIP = "If the buildings should always be running even if they are doing nothing.";
+				}
+				public static class LIQUIDTOSOLIDSTORAGE
+				{
+					public static LocString TITLE = "Liquid Loader Capacity";
+					public static LocString TOOLTIP = "Affects the maximum amount the loader can output.";
+				}
+				public static class GASTOSOLIDSTORAGE
+				{
+					public static LocString TITLE = "Gas Loader Capacity";
+					public static LocString TOOLTIP = "Affects the maximum amount the loader can output.";
+				}
+			}
+		}
+
 	}
 }

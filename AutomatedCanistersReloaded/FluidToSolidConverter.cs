@@ -20,9 +20,18 @@
 			{
 				default_state = off;
 				off.PlayAnim("off").EventTransition(GameHashes.OperationalChanged, on, smi => smi.GetComponent<Operational>().IsOperational).Enter(smi => smi.GetComponent<Operational>().SetActive(false));
-				on.DefaultState(on.idle).EventTransition(GameHashes.OperationalChanged, off, smi => !smi.GetComponent<Operational>().IsOperational).Enter(smi => smi.GetComponent<Operational>().SetActive(true));
 				on.idle.PlayAnim("on").Transition(on.working, smi => smi.master.solidConduitDispenser.IsDispensing);
-				on.working.PlayAnim("on_flow", KAnim.PlayMode.Loop).Transition(on.idle, smi => !smi.master.solidConduitDispenser.IsDispensing);
+
+				if (Options.Instance.AlwaysActive)
+				{
+					on.DefaultState(on.idle).EventTransition(GameHashes.OperationalChanged, off, smi => !smi.GetComponent<Operational>().IsOperational).Enter(smi => smi.GetComponent<Operational>().SetActive(true));
+					on.working.PlayAnim("on_flow", KAnim.PlayMode.Loop).Transition(on.idle, smi => !smi.master.solidConduitDispenser.IsDispensing);
+				}
+				else
+				{
+					on.DefaultState(on.idle).EventTransition(GameHashes.OperationalChanged, off, smi => !smi.GetComponent<Operational>().IsOperational);
+					on.working.PlayAnim("on_flow", KAnim.PlayMode.Loop).Transition(on.idle, smi => !smi.master.solidConduitDispenser.IsDispensing).Enter(smi => smi.GetComponent<Operational>().SetActive(true)).Exit(smi => smi.GetComponent<Operational>().SetActive(false));
+				}
 			}
 
 			public class ReadyStates : State

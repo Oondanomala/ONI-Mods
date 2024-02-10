@@ -63,3 +63,33 @@ msgctxt "AutomatedCanistersReloaded.STRINGS.BUILDINGS.PREFABS.SOLIDTOLIQUIDCONVE
 msgid "<link=\"SOLIDTOLIQUIDCONVERTER\">Conveyor Liquid Unloader</link>"
 msgstr ""
 
+#. AutomatedCanistersReloaded.STRINGS.CONFIG.AUTOMATEDCANISTERSRELOADED.ALWAYSACTIVE.TITLE
+msgctxt "AutomatedCanistersReloaded.STRINGS.CONFIG.AUTOMATEDCANISTERSRELOADED.ALWAYSACTIVE.TITLE"
+msgid "Always active"
+msgstr ""
+
+#. AutomatedCanistersReloaded.STRINGS.CONFIG.AUTOMATEDCANISTERSRELOADED.ALWAYSACTIVE.TOOLTIP
+msgctxt "AutomatedCanistersReloaded.STRINGS.CONFIG.AUTOMATEDCANISTERSRELOADED.ALWAYSACTIVE.TOOLTIP"
+msgid "If the buildings should always be running even if they are doing nothing."
+msgstr ""
+
+#. AutomatedCanistersReloaded.STRINGS.CONFIG.AUTOMATEDCANISTERSRELOADED.GASTOSOLIDSTORAGE.TITLE
+msgctxt "AutomatedCanistersReloaded.STRINGS.CONFIG.AUTOMATEDCANISTERSRELOADED.GASTOSOLIDSTORAGE.TITLE"
+msgid "Gas Loader Capacity"
+msgstr ""
+
+#. AutomatedCanistersReloaded.STRINGS.CONFIG.AUTOMATEDCANISTERSRELOADED.GASTOSOLIDSTORAGE.TOOLTIP
+msgctxt "AutomatedCanistersReloaded.STRINGS.CONFIG.AUTOMATEDCANISTERSRELOADED.GASTOSOLIDSTORAGE.TOOLTIP"
+msgid "Affects the maximum amount the loader can output."
+msgstr ""
+
+#. AutomatedCanistersReloaded.STRINGS.CONFIG.AUTOMATEDCANISTERSRELOADED.LIQUIDTOSOLIDSTORAGE.TITLE
+msgctxt "AutomatedCanistersReloaded.STRINGS.CONFIG.AUTOMATEDCANISTERSRELOADED.LIQUIDTOSOLIDSTORAGE.TITLE"
+msgid "Liquid Loader Capacity"
+msgstr ""
+
+#. AutomatedCanistersReloaded.STRINGS.CONFIG.AUTOMATEDCANISTERSRELOADED.LIQUIDTOSOLIDSTORAGE.TOOLTIP
+msgctxt "AutomatedCanistersReloaded.STRINGS.CONFIG.AUTOMATEDCANISTERSRELOADED.LIQUIDTOSOLIDSTORAGE.TOOLTIP"
+msgid "Affects the maximum amount the loader can output."
+msgstr ""
+

@@ -14,6 +14,6 @@ Helpful for automating buildings such as the super computer or the molecular for
  - Conveyor Gas Unloader: unloads canisters from a conveyor rail into a gas pipe.
  - Conveyor Liquid Unloader: unloads bottles from a conveyor rail into a liquid pipe.
 
-Credits to asquared31415 for the original mod.
+Credits to asquared31415 for the original mod, and thanks to Peter Han for his awesome library.
 
 [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3029304394)
